@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\practice\\tabs"
+		},
+		{
+			"path": "c:\\wamp64\\www\\js-practice\\87"
+		},
+		{
+			"path": "c:\\wamp64\\www\\js-practice\\jquery"
+		},
+		{
+			"path": "c:\\wamp64\\www\\js-practice\\react"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project"
+	}
+}

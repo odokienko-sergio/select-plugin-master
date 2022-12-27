@@ -1,0 +1,251 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.logo__block img {
+    width: 190px;
+}
+
+.main__section {
+    display: flex;
+    flex-direction: row;
+}
+
+.left__side {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left__side__block {
+    margin: -30px 0 0 0;
+}
+
+.title__block {
+    margin: 10px 0 30px 0;
+}
+
+.title__block h3 {
+    font-size: 28px;
+    color: #2c3985;
+}
+
+.title__block p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 15px 0 5px 0;
+}
+
+.form input {
+    border: 1px solid #d1d1d1;
+    width: 300px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    color: #c5c5c5;
+}
+
+#search {
+    width: 260px;
+    padding-left: 30px;
+}
+
+input[type="tel"] {
+    width: 182px;
+}
+/*
+#phone[value] {
+    color: #d2d2d2;
+}
+*/
+.form button {
+    width: 320px;
+    border-radius: 5px;
+    height: 42px;
+    padding: 0 10px;
+    background: #1f55f5;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #858b9d;
+}
+
+.form button.us {
+    width: 115px;
+    text-align: left;
+    background: none;
+    color: #000;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px 0 0;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+}
+
+.change_arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#phone {
+    float: right;
+    width: 182px;
+}
+
+.right__side {
+    height: 100vh;
+    width: 50%;
+    background: #2054f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__side__title h1 {
+    font-size: 44px;
+    letter-spacing: 1px;
+}
+
+.right__side__title {
+    color: #fff;
+    margin: 0 0 40px 0;
+}
+
+.card-body {
+    position: relative;
+}
+
+#lang {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 2px;
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 9999;
+    padding: 10px;
+    width: 303px;
+    margin: 6px 0 0 0;
+}
+
+.scrollable {
+    height: 130px;
+    overflow-y: scroll;
+    top: 60px;
+}
+
+.card-header {
+    position: relative;
+}
+
+.wrap {
+    display: flex;
+    align-items: baseline;
+}
+
+#lang ul > li {
+  /*list-style-type: none;*/
+  margin: 5px 0;
+  padding: 5px;
+  display: flex;
+}
+
+.fi {
+    margin: 0 8px 0 0;
+    float: left;
+}
+
+i.fa {
+    float: right;
+    margin: 2px 5px 0 0;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    color: #86848445;
+}
+
+input.name:focus, input.tel:focus, button.us:focus, input.email:focus, input.search:focus {
+    outline: 1px solid #000;
+}
+
+/*
+input.email:focus-visible {
+    outline: none;
+}
+*/
+#lang ul > li:hover {
+    background: #efefef;
+}
+
+#lang ul {
+    padding: 2px;
+}
+
+#lang ul > li > a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.card img {
+    width: 20px;
+    height: 15px;
+    float: left;
+    margin: 5px 10px 0 0;
+}
+
+.right__side__text {
+    color: #fff;
+    font-size: 15px;
+}
+
+.right__side__text ul {
+    list-style: disc;
+    margin: 0 0 0 20px;
+}
+
+.right__side__text ul li {
+    list-style: disc;
+    margin: 20px 0;
+}
+
+.invalid_name,.invalid_email {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    color: #ff0000;
+    font-weight: normal;
+    text-transform: none;
+    margin: 0;
+}
+
+form .invalid_name,form .invalid_email {
+    margin: 0;
+}
